@@ -80,7 +80,7 @@ npm run ios
 
 ## Concepts
 
-Head to our docs to understand our hooks concepts with our react SDK
+Head to our docs to understand XMTP concepts with our RN SDK
 
 - [Get started](https://xmtp.org/docs/build/get-started?sdk=rn)
 - [Authentication](https://xmtp.org/docs/build/authentication?sdk=rn)
