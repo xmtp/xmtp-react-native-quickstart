@@ -80,10 +80,16 @@ npm run ios
 
 ## Concepts
 
-Head to our docs to understand XMTP concepts with our RN SDK
+Head to our docs to understand XMTP's concepts
 
 - [Get started](https://xmtp.org/docs/build/get-started?sdk=rn)
 - [Authentication](https://xmtp.org/docs/build/authentication?sdk=rn)
 - [Conversations](https://xmtp.org/docs/build/conversations?sdk=rn)
 - [Messages](https://xmtp.org/docs/build/messages/?sdk=rn)
 - [Streams](https://xmtp.org/docs/build/streams/?sdk=rn)
+
+#### Troubleshooting
+
+If you get into issues with `Buffer` and `polyfills` check out the fix below:
+
+- [Check out Buffer issue](https://github.com/xmtp/xmtp-js/issues/487)
