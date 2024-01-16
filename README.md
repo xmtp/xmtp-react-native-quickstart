@@ -82,7 +82,7 @@ npm run ios
 
 Head to our docs to understand XMTP's concepts
 
-- [Get started](https://xmtp.org/docs/build/get-started?sdk=rn)
+- [Get started](https://xmtp.org/docs/build/get-started/overview?sdk=rn)
 - [Authentication](https://xmtp.org/docs/build/authentication?sdk=rn)
 - [Conversations](https://xmtp.org/docs/build/conversations?sdk=rn)
 - [Messages](https://xmtp.org/docs/build/messages/?sdk=rn)
