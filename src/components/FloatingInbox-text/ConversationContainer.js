@@ -85,7 +85,7 @@ export const ConversationContainer = ({
   const [conversationFound, setConversationFound] = useState(false);
   const [createNew, setCreateNew] = useState(false);
 
-  const selectConversation = async conversation => {
+  const openConversation = async conversation => {
     console.log('selectConversation', conversation.peerAddress);
     setSelectedConversation(conversation);
   };
@@ -176,7 +176,7 @@ export const ConversationContainer = ({
           {loadingResolve && searchTerm && <Text>Resolving address...</Text>}
           <ListConversations
             searchTerm={searchTerm}
-            selectConversation={setSelectedConversation}
+            selectConversation={openConversation}
             onConversationFound={state => {
               setConversationFound(state);
               if (state === true) setCreateNew(false);
@@ -198,7 +198,7 @@ export const ConversationContainer = ({
         <MessageContainer
           conversation={selectedConversation}
           searchTerm={searchTerm}
-          selectConversation={selectConversation}
+          selectConversation={openConversation}
         />
       )}
     </>
