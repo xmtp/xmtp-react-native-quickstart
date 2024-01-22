@@ -1,10 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import {Client, useXmtp} from '@xmtp/react-native-sdk';
 import {ethers} from 'ethers';
-import {Buffer} from 'buffer';
 import {ConversationContainer} from './ConversationContainer';
 import {View, Text, Button, StyleSheet, TouchableOpacity} from 'react-native';
-
+import Config from 'react-native-config';
+const myPrivateKey = Config.MY_PRIVATE_KEY;
+const infuraKey = Config.INFURA_KEY;
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const styles = StyleSheet.create({
@@ -156,6 +157,7 @@ export function FloatingInbox({wallet, env, onLogout}) {
       const clientOptions = {
         env: env ? env : getEnv(),
       };
+      console.log('clientOptions', clientOptions);
       const xmtpClient = await Client.createRandom(clientOptions.env);
       setIsConnected(true);
       setSigner(xmtpClient);
@@ -183,14 +185,9 @@ export function FloatingInbox({wallet, env, onLogout}) {
 
   const startFromPrivateKey = async () => {
     try {
-      const privateKey =
-        '67633be8c32db5414951db4a9ea9734b1214f8f5ca15d6b16818c0b4ee864653';
-
-      const infuraProvider = new ethers.InfuraProvider(
-        'mainnet',
-        'b1528436726c44f0a6c739baf91e04fb',
-      );
-      const signerEthers = new ethers.Wallet(privateKey, infuraProvider);
+      console.log(myPrivateKey);
+      const infuraProvider = new ethers.InfuraProvider('mainnet', infuraKey);
+      const signerEthers = new ethers.Wallet(myPrivateKey, infuraProvider);
       setSigner(signerEthers);
       setIsConnected(true);
     } catch (error) {
