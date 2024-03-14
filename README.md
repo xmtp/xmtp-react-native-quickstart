@@ -25,7 +25,7 @@ Install the latest Expo modules:
 npx install-expo-modules@latest
 ```
 
-### 3. Install XMTP React Native SDK
+### 3. Install XMTP React Native SDKs
 
 Install the XMTP React Native SDK using npm:
 
