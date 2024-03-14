@@ -1,79 +1,97 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# XMTP Quickstart React Native
 
-# Getting Started
+![xmtp](https://github.com/xmtp/xmtp-quickstart-reactjs/assets/1447073/3f2979ec-4d13-4c3d-bf20-deab3b2ffaa1)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+### Prerequisites
 
-## Step 1: Start the Metro Server
+- Node.js
+- npm or Yarn
+- React Native CLI
+- Xcode (for iOS)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### 1. Initialize React Native Project
 
-To start Metro, run the following command from the _root_ of your React Native project:
+If you haven't already created a React Native project, start by initializing one:
 
 ```bash
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+npx react-native init your-project-name
 ```
 
-## Step 2: Start your Application
+### 2. Install Expo Modules
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+Install the latest Expo modules:
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+npx install-expo-modules@latest
 ```
 
-### For iOS
+### 3. Install XMTP React Native SDK
+
+Install the XMTP React Native SDK using npm:
 
 ```bash
-# using npm
+npm install @xmtp/react-native-sdk
+```
+
+### 4. Update Podfile for iOS
+
+Update the Podfile to set the minimum iOS platform. Open the `Podfile` in your iOS directory and modify the platform line:
+
+```ruby
+platform :ios, '16.0'
+```
+
+### 5. Update Xcode Target
+
+Ensure your Xcode project's target is updated to iOS 16.0 or higher.
+
+### 6. Add Babel Plugin
+
+Install the Babel plugin required for the XMTP SDK:
+
+```bash
+npm add @babel/plugin-proposal-export-namespace-from
+```
+
+### 7. Configure Babel
+
+Update your Babel configuration. Open your `babel.config.js` and add the plugin:
+
+```javascript
+module.exports = {
+  presets: ['module:@react-native/babel-preset'],
+  plugins: ['@babel/plugin-proposal-export-namespace-from'],
+};
+```
+
+### 8. Install iOS Pods
+
+Navigate to the iOS directory and install the necessary pods:
+
+```bash
+cd ios && pod install && cd ..
+```
+
+### 9. Start the Application
+
+Finally, start your React Native application:
+
+```bash
 npm run ios
-
-# OR using Yarn
-yarn ios
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+## Concepts
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Head to our docs to understand XMTP's concepts
 
-## Step 3: Modifying your App
+- [Get started](https://xmtp.org/docs/build/get-started/overview?sdk=rn)
+- [Authentication](https://xmtp.org/docs/build/authentication?sdk=rn)
+- [Conversations](https://xmtp.org/docs/build/conversations?sdk=rn)
+- [Messages](https://xmtp.org/docs/build/messages/?sdk=rn)
+- [Streams](https://xmtp.org/docs/build/streams/?sdk=rn)
 
-Now that you have successfully run the app, let's modify it.
+#### Troubleshooting
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+If you get into issues with `Buffer` and `polyfills` check out the fix below:
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [Check out Buffer issue](https://github.com/xmtp/xmtp-js/issues/487)
