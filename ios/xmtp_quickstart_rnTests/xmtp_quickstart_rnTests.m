@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface xmtprnTests : XCTestCase
+@interface xmtp_quickstart_rnTests : XCTestCase
 
 @end
 
-@implementation xmtprnTests
+@implementation xmtp_quickstart_rnTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

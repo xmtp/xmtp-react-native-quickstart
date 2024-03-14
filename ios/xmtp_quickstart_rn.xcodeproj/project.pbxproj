@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* xmtprnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* xmtprnTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-xmtprn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-xmtprn.a */; };
-		10BC5F140707AAEDACAF0426 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C495DB656652EA8A1F69D2 /* ExpoModulesProvider.swift */; };
+		00E356F31AD99517003FC87E /* xmtp_quickstart_rnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* xmtp_quickstart_rnTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-xmtp_quickstart_rn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-xmtp_quickstart_rn.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-xmtprn-xmtprnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtprn-xmtprnTests.a */; };
+		7699B88040F8A987B510C191 /* libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a */; };
+		7E3FA549EE5A80E2BCFF4AA6 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159E56D3B514723B03D9EB34 /* ExpoModulesProvider.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		F2E3FCBC2F0CA51FB3531780 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA3F9A0CB15CD8D3C30C4B0 /* ExpoModulesProvider.swift */; };
+		ADFB5FD1F9F086312D8E783A /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEDF9A7CF542B21D5E89D25 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,30 +24,30 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = xmtprn;
+			remoteInfo = xmtp_quickstart_rn;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* xmtprnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xmtprnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* xmtp_quickstart_rnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xmtp_quickstart_rnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* xmtprnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmtprnTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* xmtprn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmtprn.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = xmtprn/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = xmtprn/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = xmtprn/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xmtprn/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = xmtprn/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtprn-xmtprnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xmtprn-xmtprnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-xmtprn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtprn.debug.xcconfig"; path = "Target Support Files/Pods-xmtprn/Pods-xmtprn.debug.xcconfig"; sourceTree = "<group>"; };
-		4AA3F9A0CB15CD8D3C30C4B0 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-xmtprn/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-xmtprn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtprn.release.xcconfig"; path = "Target Support Files/Pods-xmtprn/Pods-xmtprn.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-xmtprn-xmtprnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtprn-xmtprnTests.debug.xcconfig"; path = "Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-xmtprn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xmtprn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = xmtprn/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-xmtprn-xmtprnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtprn-xmtprnTests.release.xcconfig"; path = "Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests.release.xcconfig"; sourceTree = "<group>"; };
-		D3C495DB656652EA8A1F69D2 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-xmtprn-xmtprnTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* xmtp_quickstart_rnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xmtp_quickstart_rnTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* xmtp_quickstart_rn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmtp_quickstart_rn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = xmtp_quickstart_rn/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = xmtp_quickstart_rn/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = xmtp_quickstart_rn/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = xmtp_quickstart_rn/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = xmtp_quickstart_rn/main.m; sourceTree = "<group>"; };
+		159E56D3B514723B03D9EB34 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-xmtp_quickstart_rn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtp_quickstart_rn.debug.xcconfig"; path = "Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-xmtp_quickstart_rn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtp_quickstart_rn.release.xcconfig"; path = "Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.debug.xcconfig"; path = "Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-xmtp_quickstart_rn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xmtp_quickstart_rn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = xmtp_quickstart_rn/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.release.xcconfig"; path = "Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FDEDF9A7CF542B21D5E89D25 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-xmtp_quickstart_rn/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-xmtprn-xmtprnTests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,20 +63,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-xmtprn.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-xmtp_quickstart_rn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* xmtprnTests */ = {
+		00E356EF1AD99517003FC87E /* xmtp_quickstart_rnTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* xmtprnTests.m */,
+				00E356F21AD99517003FC87E /* xmtp_quickstart_rnTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = xmtprnTests;
+			path = xmtp_quickstart_rnTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -87,7 +87,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* xmtprn */ = {
+		079B3407FE89E1E4EAE6C67A /* xmtp_quickstart_rn */ = {
+			isa = PBXGroup;
+			children = (
+				FDEDF9A7CF542B21D5E89D25 /* ExpoModulesProvider.swift */,
+			);
+			name = xmtp_quickstart_rn;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* xmtp_quickstart_rn */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -97,34 +105,17 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = xmtprn;
-			sourceTree = "<group>";
-		};
-		1411923C16C6104FC01FAE13 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				53D9143DF48FB550B6E4D8A9 /* xmtprn */,
-				B8657551F150214373495982 /* xmtprnTests */,
-			);
-			name = ExpoModulesProviders;
+			name = xmtp_quickstart_rn;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-xmtprn.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtprn-xmtprnTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-xmtp_quickstart_rn.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		53D9143DF48FB550B6E4D8A9 /* xmtprn */ = {
-			isa = PBXGroup;
-			children = (
-				4AA3F9A0CB15CD8D3C30C4B0 /* ExpoModulesProvider.swift */,
-			);
-			name = xmtprn;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -137,13 +128,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* xmtprn */,
+				13B07FAE1A68108700A75B9A /* xmtp_quickstart_rn */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* xmtprnTests */,
+				00E356EF1AD99517003FC87E /* xmtp_quickstart_rnTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				1411923C16C6104FC01FAE13 /* ExpoModulesProviders */,
+				98FBAEAD8ECD3C550779CBFE /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -153,27 +144,36 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* xmtprn.app */,
-				00E356EE1AD99517003FC87E /* xmtprnTests.xctest */,
+				13B07F961A680F5B00A75B9A /* xmtp_quickstart_rn.app */,
+				00E356EE1AD99517003FC87E /* xmtp_quickstart_rnTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8657551F150214373495982 /* xmtprnTests */ = {
+		9230817C97F87D5A4A768F5C /* xmtp_quickstart_rnTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3C495DB656652EA8A1F69D2 /* ExpoModulesProvider.swift */,
+				159E56D3B514723B03D9EB34 /* ExpoModulesProvider.swift */,
 			);
-			name = xmtprnTests;
+			name = xmtp_quickstart_rnTests;
+			sourceTree = "<group>";
+		};
+		98FBAEAD8ECD3C550779CBFE /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				079B3407FE89E1E4EAE6C67A /* xmtp_quickstart_rn */,
+				9230817C97F87D5A4A768F5C /* xmtp_quickstart_rnTests */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-xmtprn.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-xmtprn.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-xmtprn-xmtprnTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-xmtprn-xmtprnTests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-xmtp_quickstart_rn.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-xmtp_quickstart_rn.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -181,12 +181,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* xmtprnTests */ = {
+		00E356ED1AD99517003FC87E /* xmtp_quickstart_rnTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "xmtprnTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "xmtp_quickstart_rnTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
-				A487C19FDFB64E12B60A8198 /* [Expo] Configure project */,
+				BEDC941CB9EBB738F94DB615 /* [Expo] Configure project */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -198,17 +198,17 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = xmtprnTests;
-			productName = xmtprnTests;
-			productReference = 00E356EE1AD99517003FC87E /* xmtprnTests.xctest */;
+			name = xmtp_quickstart_rnTests;
+			productName = xmtp_quickstart_rnTests;
+			productReference = 00E356EE1AD99517003FC87E /* xmtp_quickstart_rnTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* xmtprn */ = {
+		13B07F861A680F5B00A75B9A /* xmtp_quickstart_rn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "xmtprn" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "xmtp_quickstart_rn" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
-				B231BFE438C61901BAD162EE /* [Expo] Configure project */,
+				4EF4D5D6E8C708E8763256FD /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
@@ -220,9 +220,9 @@
 			);
 			dependencies = (
 			);
-			name = xmtprn;
-			productName = xmtprn;
-			productReference = 13B07F961A680F5B00A75B9A /* xmtprn.app */;
+			name = xmtp_quickstart_rn;
+			productName = xmtp_quickstart_rn;
+			productReference = 13B07F961A680F5B00A75B9A /* xmtp_quickstart_rn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "xmtprn" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "xmtp_quickstart_rn" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,8 +255,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* xmtprn */,
-				00E356ED1AD99517003FC87E /* xmtprnTests */,
+				13B07F861A680F5B00A75B9A /* xmtp_quickstart_rn */,
+				00E356ED1AD99517003FC87E /* xmtp_quickstart_rnTests */,
 			);
 		};
 /* End PBXProject section */
@@ -303,18 +303,18 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A487C19FDFB64E12B60A8198 /* [Expo] Configure project */ = {
+		4EF4D5D6E8C708E8763256FD /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -331,7 +331,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-xmtprn-xmtprnTests/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-xmtp_quickstart_rn/expo-configure-project.sh\"\n";
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -348,14 +348,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-xmtprn-xmtprnTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B231BFE438C61901BAD162EE /* [Expo] Configure project */ = {
+		BEDC941CB9EBB738F94DB615 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -372,7 +372,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-xmtprn/expo-configure-project.sh\"\n";
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/expo-configure-project.sh\"\n";
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -389,7 +389,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-xmtprn-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-xmtp_quickstart_rn-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,15 +402,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -419,15 +419,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtprn/Pods-xmtprn-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn/Pods-xmtp_quickstart_rn-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -436,15 +436,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtprn-xmtprnTests/Pods-xmtprn-xmtprnTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests/Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -454,8 +454,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* xmtprnTests.m in Sources */,
-				10BC5F140707AAEDACAF0426 /* ExpoModulesProvider.swift in Sources */,
+				00E356F31AD99517003FC87E /* xmtp_quickstart_rnTests.m in Sources */,
+				7E3FA549EE5A80E2BCFF4AA6 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +465,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				F2E3FCBC2F0CA51FB3531780 /* ExpoModulesProvider.swift in Sources */,
+				ADFB5FD1F9F086312D8E783A /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +474,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* xmtprn */;
+			target = 13B07F861A680F5B00A75B9A /* xmtp_quickstart_rn */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -482,14 +482,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-xmtprn-xmtprnTests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = xmtprnTests/Info.plist;
+				INFOPLIST_FILE = xmtp_quickstart_rnTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,17 +504,17 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xmtprn.app/xmtprn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xmtp_quickstart_rn.app/xmtp_quickstart_rn";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-xmtprn-xmtprnTests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-xmtp_quickstart_rn-xmtp_quickstart_rnTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = xmtprnTests/Info.plist;
+				INFOPLIST_FILE = xmtp_quickstart_rnTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -529,20 +529,19 @@
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xmtprn.app/xmtprn";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xmtp_quickstart_rn.app/xmtp_quickstart_rn";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-xmtprn.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-xmtp_quickstart_rn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RRH73SG83R;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = xmtprn/Info.plist;
+				INFOPLIST_FILE = xmtp_quickstart_rn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -556,7 +555,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = xmtprn;
+				PRODUCT_NAME = xmtp_quickstart_rn;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -565,13 +564,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-xmtprn.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-xmtp_quickstart_rn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RRH73SG83R;
-				INFOPLIST_FILE = xmtprn/Info.plist;
+				INFOPLIST_FILE = xmtp_quickstart_rn/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -585,7 +583,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = xmtprn;
+				PRODUCT_NAME = xmtp_quickstart_rn;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -640,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -662,8 +660,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -713,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -734,8 +731,7 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
+					" ",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -747,7 +743,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "xmtprnTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "xmtp_quickstart_rnTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -756,7 +752,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "xmtprn" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "xmtp_quickstart_rn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -765,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "xmtprn" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "xmtp_quickstart_rn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
